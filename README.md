@@ -354,7 +354,6 @@ This project uses:
 ***
 
 [1](https://github.com/Avaray/stable-diffusion-templates)
-[2](https://github.com/nuwandda/sdxl-lora-training)
 [3](https://huggingface.co/dog-god/texture-synthesis-sdxl-lora/blob/main/README.md)
 [4](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)
 [5](https://www.digitalocean.com/community/tutorials/training-a-lora-model-for-stable-diffusion-xl-with-paperspace)
