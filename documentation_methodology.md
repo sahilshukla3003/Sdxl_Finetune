@@ -40,7 +40,7 @@ This document explains two SDXL LoRA fine-tuning implementations for Naruto-styl
 | **Target GPU** | 14GB VRAM | 11.9GB VRAM |
 | **Resolution** | 1024×1024 (native SDXL) | 768×768 (reduced) |
 | **LoRA Rank** | 16 (balanced) | 8 (memory-optimized) |
-| **Training Time** | 4-6 hours | 5-7 hours |
+| **Training Time** | 2-3 hours | 3-4 hours |
 | **Batch Size** | 1 | 1 |
 | **Gradient Accumulation** | 4 steps | 8 steps |
 | **Text Caching** | RAM (on-the-fly) | Disk-based |
@@ -56,7 +56,7 @@ This document explains two SDXL LoRA fine-tuning implementations for Naruto-styl
 ### Target Hardware
 
 - **GPU:** 12-14GB VRAM (RTX 3060 12GB, RTX 4070 Ti)
-- **Expected Time:** 4-6 hours for 2000 steps
+- **Expected Time:** 2-3 hours for 2000 steps
 - **Best for:** Maximum quality training
 - **Recommended GPU:** RTX 4070 Ti, RTX 3060 12GB
 
@@ -300,7 +300,7 @@ Load latent ◄───────────────┘              [CL
 ### Target Hardware
 
 - **GPU:** 8-12GB VRAM (RTX 3060 8GB, RTX 4060, RTX 3060 12GB)
-- **Expected Time:** 5-7 hours for 3000 steps
+- **Expected Time:** 3-4 hours for 3000 steps
 - **Best for:** Memory-constrained environments
 - **Recommended GPU:** RTX 4060, RTX 3060 8GB/12GB
 
