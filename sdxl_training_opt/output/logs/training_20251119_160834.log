@@ -1,0 +1,104 @@
+2025-11-19 16:08:34 - INFO - Configuration saved
+2025-11-19 16:08:34 - INFO - Memory optimization mode: Target 8-10GB VRAM
+2025-11-19 16:08:34 - INFO - Accelerator device: cuda
+2025-11-19 16:08:34 - INFO - Mixed precision: fp16
+2025-11-19 16:08:34 - INFO - Loading tokenizers...
+2025-11-19 16:08:34 - INFO - Loading noise scheduler...
+2025-11-19 16:08:35 - INFO - Loading VAE...
+2025-11-19 16:08:35 - INFO - ✓ VAE loaded
+2025-11-19 16:08:35 - INFO - Loading text encoders...
+2025-11-19 16:08:37 - INFO - ✓ Text encoders loaded
+2025-11-19 16:08:37 - INFO - Loading UNet...
+2025-11-19 16:08:37 - INFO - ✓ Gradient checkpointing enabled
+2025-11-19 16:08:37 - INFO - ✓ SDPA attention enabled
+2025-11-19 16:08:37 - INFO - ✓ UNet loaded
+2025-11-19 16:08:37 - INFO - Applying LoRA (rank=8)...
+2025-11-19 16:08:37 - INFO - ✓ LoRA applied
+2025-11-19 16:08:38 - INFO - Loading dataset: lambdalabs/naruto-blip-captions
+2025-11-19 16:08:41 - INFO - Dataset loaded: 1221 images
+2025-11-19 16:08:41 - INFO - Caching latents for 1221 images at 768x768...
+2025-11-19 16:08:41 - INFO - ✓ Latent caching complete
+2025-11-19 16:08:41 - INFO - ✓ Dataloader ready: 1221 training samples
+2025-11-19 16:08:41 - INFO - Pre-computing and caching text embeddings to disk...
+2025-11-19 16:08:42 - INFO - ✓ Text embeddings cached to disk, encoders moved to CPU
+2025-11-19 16:08:42 - INFO - ✓ VAE offloaded
+2025-11-19 16:08:42 - INFO - ✓ Optimizer and scheduler configured
+2025-11-19 16:08:43 - INFO - ================================================================================
+2025-11-19 16:08:43 - INFO - STARTING TRAINING - MEMORY OPTIMIZED MODE
+2025-11-19 16:08:43 - INFO - ================================================================================
+2025-11-19 16:08:43 - INFO -   Num examples: 1221
+2025-11-19 16:08:43 - INFO -   Num epochs: 15
+2025-11-19 16:08:43 - INFO -   Batch size: 1
+2025-11-19 16:08:43 - INFO -   Gradient accumulation: 8
+2025-11-19 16:08:43 - INFO -   Total steps: 3000
+2025-11-19 16:08:43 - INFO -   Resolution: 768x768
+2025-11-19 16:08:43 - INFO -   LoRA rank: 8
+2025-11-19 16:08:43 - INFO -   Learning rate: 0.0001
+2025-11-19 16:08:43 - INFO - ================================================================================
+2025-11-19 16:11:35 - INFO - Epoch 1/15 | Step 50/3000 | Loss: 0.0930 | LR: 4.17e-06 | Speed: 0.29 it/s | ETA: 2.8h
+2025-11-19 16:14:24 - INFO - Epoch 1/15 | Step 100/3000 | Loss: 0.0744 | LR: 8.33e-06 | Speed: 0.29 it/s | ETA: 2.7h
+2025-11-19 16:17:15 - INFO - Epoch 1/15 | Step 150/3000 | Loss: 0.0768 | LR: 1.25e-05 | Speed: 0.29 it/s | ETA: 2.7h
+2025-11-19 16:17:24 - INFO - Epoch 1 complete | Average loss: 0.0102
+2025-11-19 16:20:02 - INFO - Epoch 2/15 | Step 200/3000 | Loss: 0.0903 | LR: 1.67e-05 | Speed: 0.29 it/s | ETA: 2.6h
+2025-11-19 16:22:52 - INFO - Epoch 2/15 | Step 250/3000 | Loss: 0.0703 | LR: 2.08e-05 | Speed: 0.29 it/s | ETA: 2.6h
+2025-11-19 16:25:38 - INFO - Epoch 2/15 | Step 300/3000 | Loss: 0.0908 | LR: 2.50e-05 | Speed: 0.30 it/s | ETA: 2.5h
+2025-11-19 16:25:56 - INFO - Epoch 2 complete | Average loss: 0.0106
+2025-11-19 16:28:17 - INFO - Epoch 3/15 | Step 350/3000 | Loss: 0.0926 | LR: 2.92e-05 | Speed: 0.30 it/s | ETA: 2.5h
+2025-11-19 16:31:04 - INFO - Epoch 3/15 | Step 400/3000 | Loss: 0.0686 | LR: 3.33e-05 | Speed: 0.30 it/s | ETA: 2.4h
+2025-11-19 16:33:58 - INFO - Epoch 3/15 | Step 450/3000 | Loss: 0.0747 | LR: 3.75e-05 | Speed: 0.30 it/s | ETA: 2.4h
+2025-11-19 16:34:28 - INFO - Epoch 3 complete | Average loss: 0.0094
+2025-11-19 16:36:50 - INFO - Epoch 4/15 | Step 500/3000 | Loss: 0.0734 | LR: 4.17e-05 | Speed: 0.30 it/s | ETA: 2.3h
+2025-11-19 16:39:41 - INFO - Epoch 4/15 | Step 550/3000 | Loss: 0.0771 | LR: 4.58e-05 | Speed: 0.30 it/s | ETA: 2.3h
+2025-11-19 16:42:32 - INFO - Epoch 4/15 | Step 600/3000 | Loss: 0.0567 | LR: 5.00e-05 | Speed: 0.30 it/s | ETA: 2.3h
+2025-11-19 16:43:11 - INFO - Epoch 4 complete | Average loss: 0.0095
+2025-11-19 16:45:18 - INFO - Epoch 5/15 | Step 650/3000 | Loss: 0.0891 | LR: 5.42e-05 | Speed: 0.30 it/s | ETA: 2.2h
+2025-11-19 16:47:59 - INFO - Epoch 5/15 | Step 700/3000 | Loss: 0.0816 | LR: 5.83e-05 | Speed: 0.30 it/s | ETA: 2.1h
+2025-11-19 16:50:39 - INFO - Epoch 5/15 | Step 750/3000 | Loss: 0.0936 | LR: 6.25e-05 | Speed: 0.30 it/s | ETA: 2.1h
+2025-11-19 16:50:39 - INFO - ✓ Checkpoint saved: output/sdxl-naruto-lora/checkpoint-750
+2025-11-19 16:51:26 - INFO - Epoch 5 complete | Average loss: 0.0106
+2025-11-19 16:53:19 - INFO - Epoch 6/15 | Step 800/3000 | Loss: 0.0960 | LR: 6.67e-05 | Speed: 0.30 it/s | ETA: 2.0h
+2025-11-19 16:55:59 - INFO - Epoch 6/15 | Step 850/3000 | Loss: 0.0631 | LR: 7.08e-05 | Speed: 0.30 it/s | ETA: 2.0h
+2025-11-19 16:58:44 - INFO - Epoch 6/15 | Step 900/3000 | Loss: 0.0742 | LR: 7.50e-05 | Speed: 0.30 it/s | ETA: 1.9h
+2025-11-19 16:59:44 - INFO - Epoch 6 complete | Average loss: 0.0097
+2025-11-19 17:01:35 - INFO - Epoch 7/15 | Step 950/3000 | Loss: 0.0669 | LR: 7.92e-05 | Speed: 0.30 it/s | ETA: 1.9h
+2025-11-19 17:04:17 - INFO - Epoch 7/15 | Step 1000/3000 | Loss: 0.0875 | LR: 8.33e-05 | Speed: 0.30 it/s | ETA: 1.9h
+2025-11-19 17:06:57 - INFO - Epoch 7/15 | Step 1050/3000 | Loss: 0.0701 | LR: 8.75e-05 | Speed: 0.30 it/s | ETA: 1.8h
+2025-11-19 17:08:03 - INFO - Epoch 7 complete | Average loss: 0.0088
+2025-11-19 17:09:40 - INFO - Epoch 8/15 | Step 1100/3000 | Loss: 0.0704 | LR: 9.17e-05 | Speed: 0.30 it/s | ETA: 1.8h
+2025-11-19 17:12:31 - INFO - Epoch 8/15 | Step 1150/3000 | Loss: 0.0844 | LR: 9.58e-05 | Speed: 0.30 it/s | ETA: 1.7h
+2025-11-19 17:15:16 - INFO - Epoch 8/15 | Step 1200/3000 | Loss: 0.0689 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.7h
+2025-11-19 17:16:32 - INFO - Epoch 8 complete | Average loss: 0.0095
+2025-11-19 17:18:01 - INFO - Epoch 9/15 | Step 1250/3000 | Loss: 0.0806 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.6h
+2025-11-19 17:20:51 - INFO - Epoch 9/15 | Step 1300/3000 | Loss: 0.0855 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.6h
+2025-11-19 17:23:33 - INFO - Epoch 9/15 | Step 1350/3000 | Loss: 0.0754 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.5h
+2025-11-19 17:25:04 - INFO - Epoch 9 complete | Average loss: 0.0098
+2025-11-19 17:26:24 - INFO - Epoch 10/15 | Step 1400/3000 | Loss: 0.0671 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.5h
+2025-11-19 17:29:14 - INFO - Epoch 10/15 | Step 1450/3000 | Loss: 0.0804 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.4h
+2025-11-19 17:31:56 - INFO - Epoch 10/15 | Step 1500/3000 | Loss: 0.0755 | LR: 1.00e-04 | Speed: 0.30 it/s | ETA: 1.4h
+2025-11-19 17:31:56 - INFO - ✓ Checkpoint saved: output/sdxl-naruto-lora/checkpoint-1500
+2025-11-19 17:33:32 - INFO - Epoch 10 complete | Average loss: 0.0095
+2025-11-19 17:34:41 - INFO - Epoch 11/15 | Step 1550/3000 | Loss: 0.0677 | LR: 9.99e-05 | Speed: 0.30 it/s | ETA: 1.3h
+2025-11-19 17:37:32 - INFO - Epoch 11/15 | Step 1600/3000 | Loss: 0.0829 | LR: 9.99e-05 | Speed: 0.30 it/s | ETA: 1.3h
+2025-11-19 17:40:15 - INFO - Epoch 11/15 | Step 1650/3000 | Loss: 0.0756 | LR: 9.99e-05 | Speed: 0.30 it/s | ETA: 1.2h
+2025-11-19 17:42:00 - INFO - Epoch 11 complete | Average loss: 0.0098
+2025-11-19 17:42:55 - INFO - Epoch 12/15 | Step 1700/3000 | Loss: 0.0706 | LR: 9.99e-05 | Speed: 0.30 it/s | ETA: 1.2h
+2025-11-19 17:45:39 - INFO - Epoch 12/15 | Step 1750/3000 | Loss: 0.0724 | LR: 9.99e-05 | Speed: 0.30 it/s | ETA: 1.2h
+2025-11-19 17:48:31 - INFO - Epoch 12/15 | Step 1800/3000 | Loss: 0.0797 | LR: 9.98e-05 | Speed: 0.30 it/s | ETA: 1.1h
+2025-11-19 17:50:30 - INFO - Epoch 12 complete | Average loss: 0.0096
+2025-11-19 17:51:16 - INFO - Epoch 13/15 | Step 1850/3000 | Loss: 0.0750 | LR: 9.98e-05 | Speed: 0.30 it/s | ETA: 1.1h
+2025-11-19 17:53:57 - INFO - Epoch 13/15 | Step 1900/3000 | Loss: 0.0599 | LR: 9.98e-05 | Speed: 0.30 it/s | ETA: 1.0h
+2025-11-19 17:56:37 - INFO - Epoch 13/15 | Step 1950/3000 | Loss: 0.0989 | LR: 9.97e-05 | Speed: 0.30 it/s | ETA: 1.0h
+2025-11-19 17:58:43 - INFO - Epoch 13 complete | Average loss: 0.0094
+2025-11-19 17:59:21 - INFO - Epoch 14/15 | Step 2000/3000 | Loss: 0.0785 | LR: 9.97e-05 | Speed: 0.30 it/s | ETA: 0.9h
+2025-11-19 18:02:13 - INFO - Epoch 14/15 | Step 2050/3000 | Loss: 0.0834 | LR: 9.97e-05 | Speed: 0.30 it/s | ETA: 0.9h
+2025-11-19 18:05:02 - INFO - Epoch 14/15 | Step 2100/3000 | Loss: 0.0617 | LR: 9.96e-05 | Speed: 0.30 it/s | ETA: 0.8h
+2025-11-19 18:07:24 - INFO - Epoch 14 complete | Average loss: 0.0094
+2025-11-19 18:07:52 - INFO - Epoch 15/15 | Step 2150/3000 | Loss: 0.0792 | LR: 9.96e-05 | Speed: 0.30 it/s | ETA: 0.8h
+2025-11-19 18:10:45 - INFO - Epoch 15/15 | Step 2200/3000 | Loss: 0.0601 | LR: 9.95e-05 | Speed: 0.30 it/s | ETA: 0.7h
+2025-11-19 18:13:36 - INFO - Epoch 15/15 | Step 2250/3000 | Loss: 0.0635 | LR: 9.95e-05 | Speed: 0.30 it/s | ETA: 0.7h
+2025-11-19 18:13:36 - INFO - ✓ Checkpoint saved: output/sdxl-naruto-lora/checkpoint-2250
+2025-11-19 18:16:00 - INFO - Epoch 15 complete | Average loss: 0.0085
+2025-11-19 18:16:00 - INFO - Saving final model...
+2025-11-19 18:16:00 - INFO - ✓ Final model saved to: ./output/sdxl-naruto-lora
+2025-11-19 18:16:00 - INFO - ✓ Training completed in 2:07:16.550409
+2025-11-19 18:16:00 - INFO - ✓ Best loss: 0.0567

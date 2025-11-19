@@ -1,0 +1,49 @@
+2025-11-19 15:34:07 - INFO - Configuration saved
+2025-11-19 15:34:07 - INFO - Memory optimization mode: Target 8-10GB VRAM
+2025-11-19 15:34:07 - INFO - Accelerator device: cuda
+2025-11-19 15:34:07 - INFO - Mixed precision: fp16
+2025-11-19 15:34:07 - INFO - Loading tokenizers...
+2025-11-19 15:34:08 - INFO - Loading noise scheduler...
+2025-11-19 15:34:08 - INFO - Loading VAE...
+2025-11-19 15:34:09 - INFO - ✓ VAE loaded
+2025-11-19 15:34:09 - INFO - Loading text encoders...
+2025-11-19 15:34:10 - INFO - ✓ Text encoders loaded
+2025-11-19 15:34:10 - INFO - Loading UNet...
+2025-11-19 15:34:11 - INFO - ✓ Gradient checkpointing enabled
+2025-11-19 15:34:11 - INFO - ✓ SDPA attention enabled
+2025-11-19 15:34:11 - INFO - ✓ UNet loaded
+2025-11-19 15:34:11 - INFO - Applying LoRA (rank=8)...
+2025-11-19 15:34:11 - INFO - ✓ LoRA applied
+2025-11-19 15:34:11 - INFO - Loading dataset: lambdalabs/naruto-blip-captions
+2025-11-19 15:34:14 - INFO - Dataset loaded: 1221 images
+2025-11-19 15:34:14 - INFO - Caching latents for 1221 images at 768x768...
+2025-11-19 15:34:14 - INFO - ✓ Latent caching complete
+2025-11-19 15:34:14 - INFO - ✓ Dataloader ready: 1221 training samples
+2025-11-19 15:34:14 - INFO - Pre-computing and caching text embeddings to disk...
+2025-11-19 15:34:15 - INFO - ✓ Text embeddings cached to disk, encoders moved to CPU
+2025-11-19 15:34:15 - INFO - ✓ VAE offloaded
+2025-11-19 15:34:15 - INFO - ✓ Optimizer and scheduler configured
+2025-11-19 15:34:17 - INFO - ================================================================================
+2025-11-19 15:34:17 - INFO - STARTING TRAINING - MEMORY OPTIMIZED MODE
+2025-11-19 15:34:17 - INFO - ================================================================================
+2025-11-19 15:34:17 - INFO -   Num examples: 1221
+2025-11-19 15:34:17 - INFO -   Num epochs: 15
+2025-11-19 15:34:17 - INFO -   Batch size: 1
+2025-11-19 15:34:17 - INFO -   Gradient accumulation: 8
+2025-11-19 15:34:17 - INFO -   Total steps: 3000
+2025-11-19 15:34:17 - INFO -   Resolution: 768x768
+2025-11-19 15:34:17 - INFO -   LoRA rank: 8
+2025-11-19 15:34:17 - INFO -   Learning rate: 0.0001
+2025-11-19 15:34:17 - INFO - ================================================================================
+2025-11-19 15:37:08 - INFO - Epoch 1/15 | Step 50/3000 | Loss: 0.0930 | LR: 4.17e-06 | Speed: 0.29 it/s | ETA: 2.8h
+2025-11-19 15:39:50 - INFO - Epoch 1/15 | Step 100/3000 | Loss: 0.0744 | LR: 8.33e-06 | Speed: 0.30 it/s | ETA: 2.7h
+2025-11-19 15:42:39 - INFO - Epoch 1/15 | Step 150/3000 | Loss: 0.0768 | LR: 1.25e-05 | Speed: 0.30 it/s | ETA: 2.7h
+2025-11-19 15:42:48 - INFO - Epoch 1 complete | Average loss: 0.0102
+2025-11-19 15:45:29 - INFO - Epoch 2/15 | Step 200/3000 | Loss: 0.0903 | LR: 1.67e-05 | Speed: 0.30 it/s | ETA: 2.6h
+2025-11-19 15:48:19 - INFO - Epoch 2/15 | Step 250/3000 | Loss: 0.0703 | LR: 2.08e-05 | Speed: 0.30 it/s | ETA: 2.6h
+2025-11-19 15:51:11 - INFO - Epoch 2/15 | Step 300/3000 | Loss: 0.0908 | LR: 2.50e-05 | Speed: 0.30 it/s | ETA: 2.5h
+2025-11-19 15:51:30 - INFO - Epoch 2 complete | Average loss: 0.0106
+2025-11-19 15:54:00 - INFO - Epoch 3/15 | Step 350/3000 | Loss: 0.0926 | LR: 2.92e-05 | Speed: 0.30 it/s | ETA: 2.5h
+2025-11-19 15:56:48 - INFO - Epoch 3/15 | Step 400/3000 | Loss: 0.0686 | LR: 3.33e-05 | Speed: 0.30 it/s | ETA: 2.4h
+2025-11-19 15:59:28 - INFO - Epoch 3/15 | Step 450/3000 | Loss: 0.0747 | LR: 3.75e-05 | Speed: 0.30 it/s | ETA: 2.4h
+2025-11-19 15:59:56 - INFO - Epoch 3 complete | Average loss: 0.0094

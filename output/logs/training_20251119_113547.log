@@ -1,0 +1,36 @@
+2025-11-19 11:35:47 - INFO - Configuration saved
+2025-11-19 11:35:47 - INFO - Accelerator device: cuda
+2025-11-19 11:35:47 - INFO - Mixed precision: fp16
+2025-11-19 11:35:47 - INFO - Num processes: 1
+2025-11-19 11:35:47 - INFO - Loading tokenizers...
+2025-11-19 11:35:47 - INFO - Loading noise scheduler...
+2025-11-19 11:35:48 - INFO - Loading VAE...
+2025-11-19 11:35:48 - INFO - ✓ VAE loaded
+2025-11-19 11:35:48 - INFO - Loading text encoders...
+2025-11-19 11:35:50 - INFO - ✓ Text encoders loaded
+2025-11-19 11:35:50 - INFO - Loading UNet...
+2025-11-19 11:35:50 - INFO - ✓ Gradient checkpointing enabled
+2025-11-19 11:35:50 - INFO - ✓ xformers memory-efficient attention enabled
+2025-11-19 11:35:50 - INFO - ✓ UNet loaded
+2025-11-19 11:35:50 - INFO - Applying LoRA (rank=16)...
+2025-11-19 11:35:52 - INFO - ✓ LoRA applied
+2025-11-19 11:35:52 - INFO - Loading dataset: lambdalabs/naruto-blip-captions
+2025-11-19 11:35:55 - INFO - Dataset loaded: 1221 images
+2025-11-19 11:35:55 - INFO - Caching latents for 1221 images...
+2025-11-19 11:35:55 - INFO - ✓ Latent caching complete
+2025-11-19 11:35:55 - INFO - ✓ Dataloader ready: 1221 training samples
+2025-11-19 11:35:55 - INFO - ✓ VAE offloaded (latents cached)
+2025-11-19 11:35:55 - INFO - Using 8-bit Adam optimizer
+2025-11-19 11:35:55 - INFO - ✓ Optimizer and scheduler configured
+2025-11-19 11:35:55 - INFO - ================================================================================
+2025-11-19 11:35:55 - INFO - STARTING TRAINING
+2025-11-19 11:35:55 - INFO - ================================================================================
+2025-11-19 11:35:55 - INFO -   Num examples: 1221
+2025-11-19 11:35:55 - INFO -   Num epochs: 10
+2025-11-19 11:35:55 - INFO -   Batch size per device: 1
+2025-11-19 11:35:55 - INFO -   Gradient accumulation steps: 4
+2025-11-19 11:35:55 - INFO -   Total optimization steps: 2000
+2025-11-19 11:35:55 - INFO -   Resolution: 1024x1024
+2025-11-19 11:35:55 - INFO -   LoRA rank: 16
+2025-11-19 11:35:55 - INFO -   Learning rate: 0.0001
+2025-11-19 11:35:55 - INFO - ================================================================================

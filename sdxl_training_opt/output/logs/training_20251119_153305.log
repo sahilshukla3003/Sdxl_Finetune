@@ -1,0 +1,38 @@
+2025-11-19 15:33:05 - INFO - Configuration saved
+2025-11-19 15:33:05 - INFO - Memory optimization mode: Target 8-10GB VRAM
+2025-11-19 15:33:05 - INFO - Accelerator device: cuda
+2025-11-19 15:33:05 - INFO - Mixed precision: fp16
+2025-11-19 15:33:05 - INFO - Loading tokenizers...
+2025-11-19 15:33:06 - INFO - Loading noise scheduler...
+2025-11-19 15:33:06 - INFO - Loading VAE...
+2025-11-19 15:33:07 - INFO - ✓ VAE loaded
+2025-11-19 15:33:07 - INFO - Loading text encoders...
+2025-11-19 15:33:08 - INFO - ✓ Text encoders loaded
+2025-11-19 15:33:08 - INFO - Loading UNet...
+2025-11-19 15:33:09 - INFO - ✓ Gradient checkpointing enabled
+2025-11-19 15:33:09 - INFO - ✓ SDPA attention enabled
+2025-11-19 15:33:09 - INFO - ✓ UNet loaded
+2025-11-19 15:33:09 - INFO - Applying LoRA (rank=8)...
+2025-11-19 15:33:09 - INFO - ✓ LoRA applied
+2025-11-19 15:33:09 - INFO - Loading dataset: lambdalabs/naruto-blip-captions
+2025-11-19 15:33:12 - INFO - Dataset loaded: 1221 images
+2025-11-19 15:33:12 - INFO - Caching latents for 1221 images at 768x768...
+2025-11-19 15:33:12 - INFO - ✓ Latent caching complete
+2025-11-19 15:33:12 - INFO - ✓ Dataloader ready: 1221 training samples
+2025-11-19 15:33:12 - INFO - Pre-computing and caching text embeddings to disk...
+2025-11-19 15:33:13 - INFO - ✓ Text embeddings cached to disk, encoders moved to CPU
+2025-11-19 15:33:13 - INFO - ✓ VAE offloaded
+2025-11-19 15:33:13 - INFO - ✓ Optimizer and scheduler configured
+2025-11-19 15:33:15 - INFO - ================================================================================
+2025-11-19 15:33:15 - INFO - STARTING TRAINING - MEMORY OPTIMIZED MODE
+2025-11-19 15:33:15 - INFO - ================================================================================
+2025-11-19 15:33:15 - INFO -   Num examples: 1221
+2025-11-19 15:33:15 - INFO -   Num epochs: 15
+2025-11-19 15:33:15 - INFO -   Batch size: 1
+2025-11-19 15:33:15 - INFO -   Gradient accumulation: 8
+2025-11-19 15:33:15 - INFO -   Total steps: 3000
+2025-11-19 15:33:15 - INFO -   Resolution: 768x768
+2025-11-19 15:33:15 - INFO -   LoRA rank: 8
+2025-11-19 15:33:15 - INFO -   Learning rate: 0.0001
+2025-11-19 15:33:15 - INFO -   EMA: Disabled (memory saving)
+2025-11-19 15:33:15 - INFO - ================================================================================
