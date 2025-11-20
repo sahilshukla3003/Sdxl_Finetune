@@ -1105,7 +1105,7 @@ Both training scripts achieve high-quality Naruto-style LoRA fine-tuning with di
 | **Target** | High-end GPUs (14GB) | Budget GPUs (8-12GB) |
 | **Resolution** | 1024×1024 (native) | 768×768 (reduced) |
 | **Quality** | Excellent (100%) | Very Good (90-95%) |
-| **Speed** | Fast (4-6 hours) | Moderate (5-7 hours) |
+| **Speed** | Fast (2-3 hours) | Moderate (3-4 hours) |
 | **Complexity** | Simple | Advanced |
 | **Features** | Standard | Production-ready |
 | **Best For** | Quick experiments | Production deployment |
