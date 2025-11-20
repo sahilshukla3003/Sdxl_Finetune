@@ -1,6 +1,6 @@
 # SDXL Fine-Tuning Methodology Documentation
 
-**Author:** Training Documentation  
+**Author:** Sahil
 **Date:** November 19, 2025  
 **Version:** 1.0
 
