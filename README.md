@@ -2,9 +2,6 @@
 
 **Fast, memory-efficient fine-tuning of Stable Diffusion XL with LoRA for anime-style image generation.**
 
-[![Python](https://img.shields.io/badge/python-https://img.shields.io/badge/pytorch
-[![CUDA](https://img.shields.io 🎯 Overview
-
 This project provides **two optimized training scripts** for fine-tuning Stable Diffusion XL (SDXL) using Low-Rank Adaptation (LoRA) to generate images in Naruto anime style. Both scripts are production-ready and support different GPU configurations.
 
 **Key Features:**
