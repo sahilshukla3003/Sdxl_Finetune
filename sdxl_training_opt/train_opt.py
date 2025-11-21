@@ -2,7 +2,7 @@
 """
 SDXL Fine-Tuning - Memory-Optimized for 8-10GB GPU
 Optimizations: Disk-based caching, CPU offloading, efficient attention
-Expected VRAM: 8-10GB | Training Time: 5-7 hours
+Expected VRAM: 8-10GB | Training Time: 3-4 hours
 """
 
 import os
