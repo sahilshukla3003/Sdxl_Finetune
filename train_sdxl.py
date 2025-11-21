@@ -2,7 +2,7 @@
 """
 SDXL Fine-Tuning for Naruto Style - Optimized for 12GB GPU
 Hardware: 12GB GPU (RTX 3060, RTX 4070 Ti, etc.)
-Expected Training Time: 4-6 hours
+Expected Training Time: 2-3 hours
 Resolution: 1024x1024 (native SDXL)
 """
 
